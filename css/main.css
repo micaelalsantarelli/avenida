@@ -52,6 +52,9 @@
     width: 99vw;
 }
 
+.main__page {
+    height: fit-content;
+}
 
 .secciones {
     display: grid;
@@ -209,7 +212,9 @@ a:visited {
     font-size: 2rem;
 }
 
-
+.info__contacto {
+    height: fit-content;
+}
 
 .contacto_item {
     display: grid;
