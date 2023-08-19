@@ -1,0 +1,87 @@
+.secciones {
+    display: grid;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: .5rem;
+    list-style: none;
+    height: 50vh;
+    li {
+        flex-wrap: wrap;
+}
+
+    li:hover {
+        border-color: #17363B;
+        border-width: .2rem;
+        border-style: solid;
+}
+
+}
+
+
+.nosotros {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: #C0CDD8;
+    border-radius: 2%;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    text-transform: uppercase;
+    a {
+        padding-top: 3rem;
+    }
+
+}
+
+.menu {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #DD7230;
+    border-radius: 2%;
+    width: 50%;
+    &__item {
+        font-family: 'Orbit';
+        font-size: 2rem;
+    }
+
+}
+
+.item_ubicacion {
+    grid-column: 4/6;
+    grid-row: 1/3;
+    background-color: #953413;
+    border-radius: 2%;
+    overflow: hidden;
+    iframe {
+        width: 160%;
+    }
+
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+
+}
+
+.pie {
+    padding: 3rem;
+    a {
+        align-items: end;
+        background-color: #17363B;
+    }
+    a:hover {
+        background-color: #F3E3B9;
+        color: #17363B;
+    }
+}
