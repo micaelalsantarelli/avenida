@@ -1,0 +1,41 @@
+.nav__header {
+    display: flex;
+    padding: 1rem;
+    background-color: #17363b;
+    height: fit-content;
+    justify-content: space-between;
+    width: 100vw;
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        max-width: 30%;
+    }
+    .header__right {
+        display: flex;
+        height: fit-content;
+        align-content: center;
+        justify-content: flex-end;
+        .registro {
+            font-family: 'Orbit';
+            color: #f3f0fc;
+            padding-top: .5rem;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #DD7230;
+    border-radius: 2%;
+    width: 50%;
+    &__item {
+        font-family: 'Orbit';
+        font-size: 2rem;
+    }
+}

@@ -34,6 +34,21 @@
   font-size: 1.5rem;
 }
 
+.menu {
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #DD7230;
+  border-radius: 2%;
+  width: 50%;
+}
+.menu__item {
+  font-family: "Orbit";
+  font-size: 2rem;
+}
+
 .hero {
   display: flex;
   background-color: white;
@@ -80,10 +95,6 @@
 }
 .main__page .secciones .nosotros a {
   padding-top: 3rem;
-}
-.main__page .secciones .nosotros a:link .main__page .secciones .nosotros a:visited {
-  color: black;
-  text-decoration: none;
 }
 .main__page .secciones .whatsapp {
   grid-column: 3/4;
@@ -144,21 +155,6 @@
   grid-column: 5/7;
   grid-row: 1/4;
   border-radius: 2%;
-}
-
-.menu {
-  display: flex;
-  margin: 2rem;
-  padding: 2rem;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: #DD7230;
-  border-radius: 2%;
-  width: 50%;
-}
-.menu__item {
-  font-family: "Orbit";
-  font-size: 2rem;
 }
 
 .info__contacto {
@@ -224,8 +220,8 @@
   border-radius: 2%;
   overflow: hidden;
   font-family: "Montserrat";
-  padding: 1rem;
   font-weight: bold;
+  padding: 1rem;
 }
 .info__contacto .contacto_item .item_mail .boton_form_mail {
   background-color: #17363B;
@@ -245,13 +241,19 @@
   display: flex;
   flex-wrap: wrap;
 }
-.main_descripcion .carousel-item2 img {
+.main_descripcion .carousel-item img {
   display: flex;
+}
+.main_descripcion .carousel-control-prev-icon {
+  background-color: #17363B;
+}
+.main_descripcion .carousel-control-next-icon {
+  background-color: #17363B;
 }
 .main_descripcion .descripcion p {
   display: flex;
 }
-.main_descripcion .descripcion p_texto {
+.main_descripcion .descripcion_texto {
   justify-content: flex-end;
   align-items: center;
   font-family: "Montserrat";
@@ -272,6 +274,31 @@
   width: 100%;
 }
 
+.reservaform {
+  padding: 2rem;
+}
+.reservaform label {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+.reservaform button {
+  background-color: #17363b;
+  color: #f3e3b9;
+}
+
+.signup {
+  display: flex;
+  padding: 2rem;
+}
+.signup div {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.signup button {
+  background-color: #17363b;
+  color: #f3e3b9;
+}
+
 .pie {
   display: flex;
   list-style: none;
@@ -287,14 +314,6 @@
 .pie a:hover {
   background-color: #F3E3B9;
   color: #17363B;
-}
-
-.carousel-control-prev-icon {
-  background-color: #17363B;
-}
-
-.carousel-control-next-icon {
-  background-color: #17363B;
 }
 
 @media (max-width: 1024px) {
@@ -326,7 +345,12 @@
     width: 100%;
   }
 }
-.toast {
-  display: flex;
-  background-color: #C0CDD8;
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

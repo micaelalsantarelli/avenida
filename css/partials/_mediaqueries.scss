@@ -1,0 +1,28 @@
+@media (max-width: 1024px) {
+    .secciones {
+        height: fit-content;
+        display: list-item;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu__item a {
+        font-size: 1rem;
+    }
+    .main_descripcion img {
+        justify-content: center;
+    }
+    .main_descripcion p {
+        font-size: 1rem;
+        justify-content: center;
+        width: 100vw;
+        padding-right: 3rem;
+    }
+    .contacto_item {
+        height: fit-content;
+        display: list-item;
+    }
+    .calculadora img {
+        width: 100%;
+    }
+}

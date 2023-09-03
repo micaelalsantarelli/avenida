@@ -1,0 +1,27 @@
+.main_descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    .carousel-item img {
+        display: flex;
+    }
+    .carousel-control-prev-icon {
+        background-color: #17363B;
+    }
+    .carousel-control-next-icon {
+        background-color: #17363B;
+    }
+    .descripcion p {
+        display: flex;
+    }
+    .descripcion_texto {
+        justify-content: flex-end;
+        align-items: center;
+        font-family: 'Montserrat';
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-left: 5rem;
+        padding-right: 2rem;
+        width: 50vw;
+        text-align: justify;
+    }
+}
