@@ -1,28 +1,9 @@
-@media (max-width: 1024px) {
-    .secciones {
-        height: fit-content;
-        display: list-item;
-    }
-}
 
-@media (max-width: 768px) {
-    .menu__item a {
+@media (max-width: 700px) {
+    .header__right p {
         font-size: 1rem;
     }
-    .main_descripcion img {
-        justify-content: center;
-    }
-    .main_descripcion p {
+    .menu__item {
         font-size: 1rem;
-        justify-content: center;
-        width: 100vw;
-        padding-right: 3rem;
-    }
-    .contacto_item {
-        height: fit-content;
-        display: list-item;
-    }
-    .calculadora img {
-        width: 100%;
     }
 }
