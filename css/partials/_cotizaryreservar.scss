@@ -1,12 +1,3 @@
-.calculadora {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img {
-        width: 100%;
-    }
-}
-
 .reservaform {
     padding: 2rem;
     label {
@@ -16,5 +7,44 @@
     button {
         background-color: #17363b;
         color: #f3e3b9;
+    }
+}
+
+.cotizarform {
+    display: flex;
+    justify-content: center;
+    .completar {
+        background-color: #f3e3b9;
+        padding: .5rem;
+        border-radius: 5%;
+        &:hover {
+            border-color: #17363b;
+        }
+    }
+    .vehiculo {
+        display: flex;
+        width: 30%;
+        justify-content: center;
+    }
+    .boton_elegir {
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        label:hover {
+            background-color: #f3e3b9;
+        }
+    }
+    .boton_calcular {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        button {
+            background-color: #17363b;
+            border-color: #f3e3b9;
+            &:hover {
+                background-color: #f3e3b9;
+                color: #17363b;
+            }
+        }
     }
 }

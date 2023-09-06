@@ -28,12 +28,45 @@
         </div>
     </section>
 
-    <section class="calcular">
-        <div class="calculadora">
-            <img src="../img/calculadora.png">
+    <form class="row g-3 cotizarform">
+        <div class="col-auto">
+          <label for="staticEmail2" class="visually-hidden">Distancia en KM</label>
+          <input type="text" readonly="" class="form-control-plaintext completar" id="staticEmail2" value="Distancia en KM">
         </div>
-    </section>
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Distancia</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="ej. 260">
+        </div>
+        <div class="col-auto">
+            <label for="staticEmail2" class="visually-hidden">Horas de espera</label>
+            <input type="text" readonly="" class="form-control-plaintext completar" id="staticEmail2" value="Tiempo de espera">
+        </div>
+        <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Horas</label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="(en horas)">
+        </div>
+        </div>
+        <div class="vehiculo">
+            <select class="form-select" aria-label="Default select example">
+            <option selected>Elige tu vehículo</option>
+            <option value="1">Cronos</option>
+            <option value="2">Kangoo</option>
+            <option value="3">Logan</option>
+            </select>
+        </div>
+        <div class="boton_elegir">
+            <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
+            <label class="btn" for="option5">Solo ida</label>
+            <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+            <label class="btn" for="option6">Ida y vuelta</label>
+        </div>
+        <div class="boton_calcular">
+            <button type="submit" class="btn btn-primary">Cotizar</button>
+            <button type="submit" class="btn btn-primary"> $0.00</button>  
+        </div>
+    </form>
 
+      
 
     <footer class="pie">
         <a class="btn btn-primary boton_pie d-grid gap-2 col-6 mx-auto" href="https://www.instagram.com" role="button" target="_blank">Instagram</a>
